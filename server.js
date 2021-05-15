@@ -1,9 +1,9 @@
 const express = require("express");
 const fs = require("fs");
-//const notes = require("db.json");
+
 const path = require("path");
 const uuid = require("uuid");
-//const { DH_CHECK_P_NOT_SAFE_PRIME } = require("constants");
+
 
 
 const app = express();
@@ -23,7 +23,7 @@ app.get("/api/notes", (req, res)=>{
     res.json(file)
 });
 
-// Post function to add new notes to db.json
+// Post function to add new notes 
 app.post("/api/notes", (req, res) => {
     const notes = JSON.parse(fs.readFileSync("db/db.json"));
     const newNotes = req.body;
@@ -43,7 +43,7 @@ app.delete("/api/notes/:id", (req, res) => {
 
 
 //HTML calls
-//calls home page
+
 app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname,"public", "notes.html"));
 });
