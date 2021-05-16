@@ -33,6 +33,9 @@ For more content, check me out on [GitHub](https://github.com/ferick8246)!
 Any questions regarding this project can be sent to ferick8246@gmail.com and I will respond as soon as i can.
 
 
-#Screenshots
+## Screenshots
 
 ![picture](https://github.com/ferick8246/The-Note-Taker/blob/9fad005f2ab7f1794bb9b6b5074eff282a717caf/Images/Note%20Taker%20.PNG)
+
+
+![picture](https://github.com/ferick8246/The-Note-Taker/blob/ca2c77509c7bdd1c7e9bfee77d6aa500f9c36787/Images/Tracker%20Notes.PNG)
