@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-//Setting routes for APIs
+
 //This gets notes saved and joins it in db.json
 app.get("/api/notes", (req, res)=>{
     let file=fs.readFileSync(path.join(__dirname,"db/db.json"));
