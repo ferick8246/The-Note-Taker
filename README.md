@@ -4,15 +4,9 @@
 
 * [Description](#description)
 
-* [Install](#install)
+* [Link](#link)
 
 * [Usage](#usage)
-
-* [Contribute](#contribute)
-
-* [Test](#test)
-
-* [License](#license)
 
 * [Questions](#questions)
 
@@ -24,3 +18,7 @@ I created an application called The Note Taker that can be used to write and sav
 ## Link to Heroku
 
 Visit my [Note Taker](https://woodys-notetaker.herokuapp.com/) and go make your notes!
+
+## Usage
+
+This project can be used to generate a collection of notes which you remove when you no longer need them. Simple styling and basic format make it easy to use.
